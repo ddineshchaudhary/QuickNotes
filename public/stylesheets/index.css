@@ -1,0 +1,180 @@
+@import url('./global.css');
+
+.navbar {
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.container a:hover {
+    color: #F87171;
+}
+
+.container button :hover{
+    background-color: #121111;
+}
+
+.navbar-brand {
+    color: var(--primary);
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.nav-item a {
+    color: var(--dark);
+    font-weight: 400;
+}
+
+.nav-item a:hover {
+    color: #3B82F6
+}
+
+.navbar-search {
+    flex: 1;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.hero {
+    background: linear-gradient(135deg, #3B82F6, #60A5FA);
+    color: #fff;
+    padding: 2rem 1rem;
+}
+
+.hero h1 {
+    font-weight: 700;
+    font-size: 2.5rem;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    color: #F9FAFB;
+}
+
+.hero .btn-accent {
+    background-color: var(--accent);
+    border-color: var(--accent);
+    color: #fff;
+    font-weight: 600;
+}
+
+.hero .btn-accent:hover {
+    background-color: #dc2626;
+    color: #fff;
+    border-color: #dc2626;
+}
+
+.hero-img {
+    max-width: 100%;
+    height: auto;
+}
+
+@media (min-width: 992px) {
+    .hero {
+        padding: 2rem 1rem;
+    }
+
+    .hero-img {
+        max-width: 100%;
+    }
+}
+
+
+.btn-accent {
+    background-color: var(--accent);
+    border-color: var(--accent);
+    color: #fff;
+    font-weight: 600;
+}
+
+.btn-accent:hover {
+    background-color: #dc2626;
+    border-color: #dc2626;
+}
+
+section h2 {
+    color: var(--primary);
+    font-weight: 700;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.feature-icon {
+    font-size: 2rem;
+    color: var(--accent);
+    margin-bottom: 1rem;
+}
+
+.card {
+    border: none;
+    border-radius: 1rem;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+    color: var(--primary);
+    font-weight: 600;
+}
+
+.card-text {
+    color: var(--muted);
+}
+
+.about-section {
+    background-color: #fff;
+    padding: 4rem 1rem;
+}
+
+.about-text {
+    color: var(--muted);
+    font-size: 1.1rem;
+}
+
+.about-img {
+    max-width: 100%;
+    border-radius: 1rem;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.testimonial-img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid var(--primary);
+}
+
+footer {
+    background-color: var(--dark);
+    color: #ccc;
+    padding: 3rem 0;
+}
+
+footer h5 {
+    color: #fff;
+    margin-bottom: 1rem;
+}
+
+footer a {
+    color: #ccc;
+    margin: 0 0.5rem;
+}
+
+footer a:hover {
+    color: var(--accent);
+}
+
+.social-icons a {
+    font-size: 1.2rem;
+    margin: 0 0.5rem;
+    color: #ccc;
+}
+
+.social-icons a:hover {
+    color: var(--accent);
+}
