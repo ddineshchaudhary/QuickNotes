@@ -1,8 +1,67 @@
-body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+@import url('./global.css');
+
+.auth-section {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background-color: var(--background);
 }
 
-a {
-  color: #00B7FF;
+.auth-img {
+    width: 80%;
+    height: 80%;
+    object-fit: cover;
+}
+
+.form-area {
+    padding: 3rem 2rem;
+    max-width: 400px;
+    width: 100%;
+}
+
+.form-area form {
+  max-width: 400px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.form-area h2 {
+    font-weight: 700;
+    color: var(--primary);
+    margin-bottom: 1rem;
+}
+
+.input-group-text {
+    background-color: var(--primary);
+    color: white;
+    border: none;
+}
+
+.input-group i {
+    color: #F87171;
+}
+
+.form-control:focus {
+    border-color: var(--primary);
+    box-shadow: 0 0 0 0.2rem rgba(59, 130, 246, 0.25);
+}
+
+.btn-primary {
+    background-color: var(--primary);
+    border-color: var(--primary);
+}
+
+.btn-primary:hover {
+    background-color: #2563eb;
+}
+
+@media (max-width: 768px) {
+    .auth-img {
+        height: 250px;
+        object-fit: contain;
+    }
+
+    .form-area {
+        padding: 2rem 1rem;
+    }
 }
